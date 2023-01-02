@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Desafios para treino ReactJs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- neste desafio foi solicitado os seguintes requerimentos
 
-## Available Scripts
+<!-- * INSTRUÇÕES
+Neste desafio sua missão é criar um formulário e seus 4 campos (com controlled inputs),
+juntamente com uma barra de progresso que altera-se conforme o usuário preenche os campos.
+- Crie também validações para cada campo conforme instruções abaixo.
 
-In the project directory, you can run:
+* BARRA DE PROGRESSO
+Para aproveitar estilização já definida, crie:
+- a barra com um elemento pai chamado .bar-container e seu filho .bar
+* CAMPOS DO FORMULÁRIO:
+input - nome completo - válido se digitar no mínimo dois nomes,
+input - email - válido se digitar um e-mail,
+select - estado civil,
+radio - gênero
+Para validação de e-mail use a seguinte RegEx: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-### `npm start`
+* FUNCIONAMENTO
+Espera-se que o formulário tenha 4 campos ao todo. Portanto, quando o usuário preencher
+o primeiro campo, a barra de progresso deve assumir 25% do tamanho total;
+o segundo campo, 50% e assim por diante...
+Caso o usuário não tenha definido valores para os elementos de select e radio,
+os mesmos não devem ser considerados como preenchidos até então.
+Se o usuário preencher um campo e apagar seu valor, este campo deve ser considerado como vazio,
+fazendo com que a barra de progresso regrida novamente.
+Desabilitar o botão de enviar caso todos os campos não estejam preenchidos/válidos.
+Ao enviar, deve-se apresentar um alert javascript com sucesso, limpar todos os campos
+do formulário e zerar a barra de progresso novamente.
+*/ -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+toda a lógica desenvolvida se encontra no 'App.jsx'
